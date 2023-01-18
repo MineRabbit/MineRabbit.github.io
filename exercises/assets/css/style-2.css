@@ -11,14 +11,34 @@ input, button, textarea, select { font: inherit }
 
 /* ================= ENDS ================ */
 
+body {
+    background-color: aquamarine;
+}
+
 /* Desktops */
-@media (min-width: 768px) { body { padding: 4% 20% } }
+@media (min-width: 768px) { section { padding: 4% 20% } }
 
 /* Mobiles */
-@media (max-width: 767px) { body { padding: 12% 8% } }
+@media (max-width: 767px) { section { padding: 12% 8% } }
 
-section {
-    padding: 5% 5% 5% 5%;
+.section-1 {
+    background-color: aqua;
+}
+.section-2 {
+    background-color: greenyellow;
+}
+.section-3 {
+    background-color: azure;
+}
+.section-4 {
+    background-color: yellowgreen;
+}
+.section-5 {
+    background-color: goldenrod;
+}
+.section-5 h2,
+.section-5 p {
+    color: white;
 }
 
 h1 {
