@@ -11,3 +11,13 @@ footer.theme-dark   { background-color: #0f0e17 }
 
 
 header .col-text h2, .col-1 > h3 { line-height: 1.8; font-family: 'Rubik', sans-serif;}
+
+section.theme-dark {
+    background-color: #162c41;
+}
+
+header .col-text h1 {
+    font-size: calc(var(--font-size-xxl) * 1.3);
+    letter-spacing: -1px;
+    line-height: 1.2;
+}
